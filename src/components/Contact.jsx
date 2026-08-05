@@ -74,13 +74,6 @@ export default function Contact() {
             Send
           </button>
         </form>
-
-        <a
-          href="mailto:hello@koeproductions.com"
-          className="mt-6 inline-block text-sm text-indigo-300 underline decoration-indigo-500 underline-offset-4 hover:text-wood-300"
-        >
-          or email us directly at hello@koeproductions.com
-        </a>
       </div>
     </section>
   );

@@ -12,16 +12,17 @@ export default function Hero() {
         }}
       />
       <div className="relative mx-auto flex max-w-4xl flex-col items-center px-6 py-32 text-center">
-        <span className="mb-6 text-sm tracking-[0.3em] text-wood-300 uppercase">
+        <span className="mb-6 text-xl tracking-[0.3em] text-wood-300 uppercase sm:text-2xl">
           Koe &middot; 声 &middot; Voice
         </span>
         <h1 className="text-4xl leading-tight font-medium sm:text-5xl md:text-6xl">
-          Cultivating space for the voice inside all of us.
+          Where voices emerge. Creativity flourishes. Change begins.
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-indigo-200">
-          Koe Productions is a community of creatives producing music, art,
-          and gatherings that make room for soulfulness — conferences,
-          workshops, and experiences shaped around what wants to be voiced.
+          We believe creativity is not the garnish but the catalyst for
+          change. We partner with people, organizations, and communities to
+          bring meaningful ideas to life through thoughtfully designed
+          gatherings, artistic strategy, and transformative experiences.
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <a

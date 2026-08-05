@@ -10,17 +10,19 @@ export default function About() {
             Koe (声) is Japanese for &ldquo;voice.&rdquo;
           </h2>
           <p className="mt-6 leading-relaxed text-indigo-900/80 dark:text-indigo-200/80">
-            That's the essence of what we do: creating room for what God has
-            already voiced inside each of us to be heard, made, and shared.
-            Koe Productions is a nonprofit community of creatives cultivating
-            spaces for music, art, and formation — places where soulfulness
-            has room to breathe.
+            Too often, creativity and the art of convening are treated as
+            secondary to the &ldquo;real&rdquo; work. Yet the moments that
+            move us, inspire our imagination, deepen our connection, and
+            create lasting change are often born within intentional and
+            creative spaces where we encounter one another and discover
+            something new.
           </p>
           <p className="mt-4 leading-relaxed text-indigo-900/80 dark:text-indigo-200/80">
-            We're currently incubated within Threshold, and led by our
-            founder and creative director, who serves as the voice and face
-            of the work while building out a team and community of
-            collaborators around it.
+            Our work is rooted in the belief that every person, community,
+            and movement carries a voice worth hearing. When people are
+            invited to listen deeply, create courageously, and gather across
+            differences, new possibilities for connection and transformation
+            emerge.
           </p>
         </div>
         <div className="rounded-2xl border border-wood-500/30 bg-indigo-950 p-10 text-paper">

@@ -1,22 +1,22 @@
 const offerings = [
   {
-    title: "In-House Experiences",
+    title: "In-House Productions",
     description:
-      "Original gatherings, conferences, and workshops we produce and host ourselves — come as you are and join us.",
+      "Original Koe Productions initiatives imagined, designed, and led by our team of creatives. We produce gatherings, experiences, and projects that bring people together around meaningful ideas, shared stories, creative expression, and a vision for what is possible.",
     cta: "See upcoming experiences",
     href: "#gatherings",
   },
   {
-    title: "Event Production",
+    title: "Partner Productions",
     description:
-      "Bring us in to produce your event or your organization's gathering — from concept and lineup to a full production team on the ground.",
+      "We partner with organizations, communities, and leaders to bring their vision to life through thoughtful artistic strategy, production, and experience design. From conferences and retreats to concerts, festivals, curated gatherings, and community experiences, we help transform ideas into meaningful experiences.",
     cta: "Inquire about production",
     href: "#contact",
   },
   {
     title: "Coaching & Consulting",
     description:
-      "Soul coaching and life & leadership coaching, alongside creative consulting for organizations shaping their own gatherings.",
+      "We work with leaders and organizations to clarify vision, develop strategy, and cultivate the creative practices needed to bring transformative ideas into reality. Through coaching, facilitation, and collaborative consultation, we help people and teams discover what they are uniquely called to create.",
     cta: "Ask about coaching",
     href: "#contact",
   },
@@ -31,7 +31,7 @@ export default function Offerings() {
       <div className="mx-auto max-w-6xl px-6 py-24">
         <div className="max-w-2xl">
           <span className="text-sm font-medium tracking-[0.2em] text-wood-300 uppercase">
-            What We Offer
+            What We Do
           </span>
           <h2 className="mt-4 text-3xl font-medium sm:text-4xl">
             Come to what we produce, or bring us to produce with you.
