@@ -30,7 +30,7 @@ export default function Navbar() {
           rel="noreferrer"
           className="rounded-full bg-indigo-900 px-5 py-2 text-sm font-medium text-paper transition hover:bg-wood-700"
         >
-          Let's Talk
+          Let's Talk!
         </a>
       </nav>
     </header>
