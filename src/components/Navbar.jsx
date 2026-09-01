@@ -1,7 +1,6 @@
 const links = [
-  { label: "Our Voice", href: "#about" },
+  { label: "About KOE", href: "#about" },
   { label: "What We Do", href: "#offerings" },
-  { label: "Why Koe", href: "#why-koe" },
   { label: "Gatherings", href: "#gatherings" },
   { label: "Contact", href: "#contact" },
 ];
