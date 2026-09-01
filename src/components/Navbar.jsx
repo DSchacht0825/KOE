@@ -2,6 +2,7 @@ const links = [
   { label: "Our Work", href: "#offerings" },
   { label: "Our Story", href: "#story" },
   { label: "Join Us", href: "#gatherings" },
+  { label: "Book a Call", href: "#booking" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -25,10 +26,10 @@ export default function Navbar() {
           ))}
         </ul>
         <a
-          href="#gatherings"
+          href="#booking"
           className="rounded-full bg-indigo-900 px-5 py-2 text-sm font-medium text-paper transition hover:bg-wood-700"
         >
-          Find an Experience
+          Let's Talk
         </a>
       </nav>
     </header>
