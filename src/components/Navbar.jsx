@@ -26,7 +26,9 @@ export default function Navbar() {
           ))}
         </ul>
         <a
-          href="#booking"
+          href="https://calendly.com/ctianarice/koe-discovery-call"
+          target="_blank"
+          rel="noreferrer"
           className="rounded-full bg-indigo-900 px-5 py-2 text-sm font-medium text-paper transition hover:bg-wood-700"
         >
           Let's Talk
