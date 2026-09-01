@@ -29,13 +29,15 @@ export default function Hero() {
             href="#gatherings"
             className="rounded-full bg-wood-500 px-7 py-3 font-medium text-indigo-950 transition hover:bg-wood-300"
           >
-            Join a Gathering
+            Join Us
           </a>
           <a
-            href="#offerings"
+            href="https://calendly.com/ctianarice/koe-discovery-call"
+            target="_blank"
+            rel="noreferrer"
             className="rounded-full border border-paper/30 px-7 py-3 font-medium text-paper transition hover:border-paper hover:bg-paper/10"
           >
-            Work With Us
+            Book a Call
           </a>
         </div>
       </div>
