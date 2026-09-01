@@ -19,7 +19,7 @@ export default function Gatherings() {
     <section id="gatherings" className="bg-paper dark:bg-paper-dark">
       <div className="mx-auto max-w-6xl px-6 py-24">
         <span className="text-sm font-medium tracking-[0.2em] text-wood-500 uppercase">
-          Gatherings
+          Join Us
         </span>
         <h2 className="mt-4 max-w-2xl text-3xl font-medium text-indigo-950 sm:text-4xl dark:text-indigo-200">
           Join us for what's next, or see what we've produced before.

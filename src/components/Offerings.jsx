@@ -31,7 +31,7 @@ export default function Offerings() {
       <div className="mx-auto max-w-6xl px-6 py-24">
         <div className="max-w-2xl">
           <span className="text-sm font-medium tracking-[0.2em] text-wood-300 uppercase">
-            What We Do
+            Our Work
           </span>
           <h2 className="mt-4 text-3xl font-medium sm:text-4xl">
             Come to what we produce, or bring us to produce with you.

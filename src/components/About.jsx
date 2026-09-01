@@ -4,7 +4,7 @@ export default function About() {
       <div className="mx-auto grid max-w-6xl gap-12 px-6 py-24 md:grid-cols-2 md:items-center">
         <div>
           <span className="text-sm font-medium tracking-[0.2em] text-wood-500 uppercase">
-            Our Voice
+            Our Story
           </span>
           <h2 className="mt-4 text-3xl font-medium text-indigo-950 sm:text-4xl dark:text-indigo-200">
             Koe (声) is Japanese for &ldquo;voice.&rdquo;
