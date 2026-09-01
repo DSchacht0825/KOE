@@ -1,6 +1,6 @@
 const links = [
-  { label: "Our Story", href: "#about" },
   { label: "Our Work", href: "#offerings" },
+  { label: "Our Story", href: "#story" },
   { label: "Join Us", href: "#gatherings" },
   { label: "Contact", href: "#contact" },
 ];

@@ -1,9 +1,9 @@
 export default function WhyKoe() {
   return (
-    <section id="why-koe" className="bg-paper dark:bg-paper-dark">
+    <section id="story" className="bg-paper dark:bg-paper-dark">
       <div className="mx-auto max-w-4xl px-6 py-24">
         <span className="text-sm font-medium tracking-[0.2em] text-wood-500 uppercase">
-          Why Koe
+          Our Story
         </span>
         <h2 className="mt-4 text-3xl font-medium text-indigo-950 sm:text-4xl dark:text-indigo-200">
           Twenty years of gathering people for transformative change.
