@@ -5,7 +5,6 @@ import Offerings from "./components/Offerings";
 import WhyKoe from "./components/WhyKoe";
 import Values from "./components/Values";
 import Gatherings from "./components/Gatherings";
-import Booking from "./components/Booking";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -19,7 +18,6 @@ export default function App() {
       <WhyKoe />
       <Values />
       <Gatherings />
-      <Booking />
       <Contact />
       <Footer />
     </div>

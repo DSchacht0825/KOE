@@ -2,7 +2,6 @@ const links = [
   { label: "Our Work", href: "#offerings" },
   { label: "Our Story", href: "#story" },
   { label: "Join Us", href: "#gatherings" },
-  { label: "Book a Call", href: "#booking" },
   { label: "Contact", href: "#contact" },
 ];
 
