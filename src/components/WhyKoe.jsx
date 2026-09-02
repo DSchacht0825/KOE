@@ -26,6 +26,19 @@ export default function WhyKoe() {
           healing and change in the world.
         </p>
 
+        <figure className="mt-12 overflow-hidden rounded-2xl">
+          <img
+            src="/photos/story-livingroom.webp"
+            alt="Neighbors gathered in a living room for an evening of music and conversation"
+            width={1600}
+            height={1200}
+            className="w-full object-cover"
+          />
+          <figcaption className="mt-3 text-sm text-indigo-900/60 dark:text-indigo-200/60">
+            Soirees with neighbors in living rooms — one of the many shapes this work takes.
+          </figcaption>
+        </figure>
+
         <div className="mt-14 rounded-2xl border border-wood-500/30 bg-indigo-950 p-10 text-paper">
           <p className="text-sm font-medium tracking-[0.2em] text-wood-300 uppercase">
             In Memory of Rebecca Chase
