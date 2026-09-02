@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# macOS
+.DS_Store
+
+# Local photo originals (optimized copies live in public/photos)
+_photo-originals/

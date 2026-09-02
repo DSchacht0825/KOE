@@ -1,3 +1,5 @@
+import Moments from "./Moments";
+
 const upcoming = [
   {
     name: "Details coming soon",
@@ -24,6 +26,16 @@ export default function Gatherings() {
         <h2 className="mt-4 max-w-2xl text-3xl font-medium text-indigo-950 sm:text-4xl dark:text-indigo-200">
           Join us for what's next, or see what we've produced before.
         </h2>
+
+        <figure className="mt-10 overflow-hidden rounded-2xl">
+          <img
+            src="/photos/gathering-dusk.webp"
+            alt="An evening gathering outdoors under string lights and paper lanterns"
+            width={2000}
+            height={1500}
+            className="h-64 w-full object-cover sm:h-80"
+          />
+        </figure>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">
           <div>
@@ -72,6 +84,8 @@ export default function Gatherings() {
             </div>
           </div>
         </div>
+
+        <Moments />
       </div>
     </section>
   );

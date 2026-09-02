@@ -29,13 +29,24 @@ export default function Offerings() {
       className="bg-indigo-950 text-paper"
     >
       <div className="mx-auto max-w-6xl px-6 py-24">
-        <div className="max-w-2xl">
-          <span className="text-sm font-medium tracking-[0.2em] text-wood-300 uppercase">
-            Our Work
-          </span>
-          <h2 className="mt-4 text-3xl font-medium sm:text-4xl">
-            Come to what we produce, or bring us to produce with you.
-          </h2>
+        <div className="grid gap-10 md:grid-cols-2 md:items-center">
+          <div className="max-w-2xl">
+            <span className="text-sm font-medium tracking-[0.2em] text-wood-300 uppercase">
+              Our Work
+            </span>
+            <h2 className="mt-4 text-3xl font-medium sm:text-4xl">
+              Come to what we produce, or bring us to produce with you.
+            </h2>
+          </div>
+          <figure className="overflow-hidden rounded-2xl">
+            <img
+              src="/photos/work-trio.webp"
+              alt="A trio performing with voice, cello, and keys beside the water"
+              width={1600}
+              height={1595}
+              className="h-full w-full object-cover"
+            />
+          </figure>
         </div>
         <div className="mt-14 grid gap-8 md:grid-cols-3">
           {offerings.map((offering) => (
