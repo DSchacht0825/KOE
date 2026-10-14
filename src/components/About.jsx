@@ -4,22 +4,20 @@ export default function About() {
       <div className="mx-auto grid max-w-6xl gap-12 px-6 py-24 md:grid-cols-2 md:items-center">
         <div>
           <h2 className="text-3xl font-medium text-indigo-950 sm:text-4xl dark:text-indigo-200">
-            Koe (声) is Japanese for &ldquo;voice.&rdquo;
+            Koe (声) is Japanese for &ldquo;voice&rdquo;
           </h2>
           <p className="mt-6 leading-relaxed text-indigo-900/80 dark:text-indigo-200/80">
-            Too often, creativity and the art of convening are treated as
-            secondary to the &ldquo;real&rdquo; work. Yet the moments that
-            move us, inspire our imagination, deepen our connection, and
-            create lasting change are often born within intentional and
-            creative spaces where we encounter one another and discover
-            something new.
+            Our name comes from the Japanese word <em>koe</em>, meaning
+            voice.
           </p>
           <p className="mt-4 leading-relaxed text-indigo-900/80 dark:text-indigo-200/80">
-            Our work is rooted in the belief that every person, community,
-            and movement carries a voice worth hearing. When people are
-            invited to listen deeply, create courageously, and gather across
-            differences, new possibilities for connection and transformation
-            emerge.
+            We trust that every person, community, and movement carries a
+            sacred voice within.
+          </p>
+          <p className="mt-4 leading-relaxed text-indigo-900/80 dark:text-indigo-200/80">
+            We are interested in what happens when people are given the
+            space, invitation, and courage to discover and express their
+            unique voice in the presence of a gathered group.
           </p>
         </div>
         <div className="rounded-2xl border border-wood-500/30 bg-indigo-950 p-10 text-paper">

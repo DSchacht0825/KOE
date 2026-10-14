@@ -6,24 +6,30 @@ export default function WhyKoe() {
           Our Story
         </span>
         <h2 className="mt-4 text-3xl font-medium text-indigo-950 sm:text-4xl dark:text-indigo-200">
-          Twenty years of gathering people for transformative change.
+          The story of Koe Productions is a calling that&rsquo;s been taking
+          shape for more than twenty years.
         </h2>
         <p className="mt-6 leading-relaxed text-indigo-900/80 dark:text-indigo-200/80">
-          Founded by Christiana Rice, Koe Productions is built on more than
-          twenty years of experience gathering people for transformative
-          change. From national conferences and city-wide gatherings to
-          concerts, workshops, retreats, and soirees with neighbors in
-          living rooms, Christiana brings together networks of creators,
-          artists, facilitators, and producers to transform meaningful ideas
-          into memorable experiences.
+          Founded by Christiana Rice, Koe Productions grows out of more than
+          twenty years of gathering people for transformative change.
+        </p>
+        <p className="mt-4 leading-relaxed text-indigo-900/80 dark:text-indigo-200/80">
+          From national conferences and city-wide gatherings to concerts,
+          workshops, retreats, and soirees with neighbors in living rooms,
+          Christiana has spent her career bringing together networks of
+          creators, artists, facilitators, and producers to transform
+          meaningful ideas into memorable experiences.
+        </p>
+        <p className="mt-4 leading-relaxed text-indigo-900/80 dark:text-indigo-200/80">
+          Koe Productions is an offering built around the belief that
+          gathering people well is a prophetic act to alter our future.
         </p>
         <p className="mt-4 leading-relaxed text-indigo-900/80 dark:text-indigo-200/80">
           Christiana grew up in Tokyo, where the name Koe, meaning voice in
-          Japanese, became an expression of the heart behind this work. Koe
-          reflects our belief that every person, community, and movement
-          carries a voice the world needs to hear. Our work is crafting the
-          spaces where those voices can emerge, connect, and contribute to
-          healing and change in the world.
+          Japanese, became an expression of the heart behind this work. Our
+          work is in crafting the spaces where those voices can emerge,
+          connect, and contribute to healing, imagination, and lasting
+          change.
         </p>
 
         <figure className="mt-12 overflow-hidden rounded-2xl">
@@ -51,26 +57,38 @@ export default function WhyKoe() {
           </p>
           <p className="mt-6 font-serif text-xl leading-relaxed italic">
             As Rebecca began to fade from this life, Christiana asked her
-            through tears, &ldquo;What do I do without you?&rdquo;
+            through tears:
           </p>
-          <p className="mt-4 font-serif text-xl leading-relaxed italic">
-            Rebecca gently replied, &ldquo;You know what to do,&rdquo;
+          <p className="mt-2 font-serif text-2xl leading-relaxed italic text-wood-100">
+            &ldquo;What do I do without you?&rdquo;
+          </p>
+          <p className="mt-6 font-serif text-xl leading-relaxed italic">
+            Rebecca gently replied:
+          </p>
+          <p className="mt-2 font-serif text-2xl leading-relaxed italic text-wood-100">
+            &ldquo;You know what to do,&rdquo;
+          </p>
+          <p className="mt-2 font-serif text-xl leading-relaxed italic">
             moving her hand toward Christiana&rsquo;s heart like a wave of
             blessing.
           </p>
           <p className="mt-6 leading-relaxed text-indigo-200">
-            Those words became the seed of Koe Productions. Rebecca was a
-            vibrant creative, an artful activist, and a courageous
-            community leader. She believed every person carries an inner
-            wisdom — a voice that, for Christiana, is rooted in the voice
-            of God already speaking within us. Listening for that voice
-            and finding the courage to trust it is at the heart of this
-            work.
+            Those words became the seed of Koe Productions.
+          </p>
+          <p className="mt-4 leading-relaxed text-indigo-200">
+            Rebecca was a vibrant creative, an artful activist and a
+            courageous community leader. She believed every person carries
+            an inner wisdom; a voice that is rooted in the voice of God
+            already stirring within us.
+          </p>
+          <p className="mt-4 leading-relaxed text-indigo-200">
+            Listening for that voice and finding the courage to trust it is
+            at the heart of this work.
           </p>
           <div className="mt-8 h-px w-16 bg-wood-500" />
           <p className="mt-8 text-sm leading-relaxed tracking-wide text-indigo-300">
-            Koe is dedicated to Rebecca Chase, founding inspiration and a
-            forever reminder that every voice matters.
+            Koe Productions is dedicated to Rebecca Chase, founding
+            inspiration and a forever reminder that every voice matters.
           </p>
         </div>
       </div>

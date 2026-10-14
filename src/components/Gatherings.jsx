@@ -5,7 +5,7 @@ const upcoming = [
     name: "Details coming soon",
     date: "TBA",
     blurb:
-      "Our next in-house gathering is being shaped. Check back soon or reach out to be the first to know.",
+      "Our next in-house gathering is being shaped.\nCheck back soon or reach out to be the first to know.",
   },
 ];
 
@@ -54,9 +54,11 @@ export default function Gatherings() {
                   <p className="mt-2 font-medium text-indigo-950 dark:text-indigo-200">
                     {event.name}
                   </p>
-                  <p className="mt-2 text-sm leading-relaxed text-indigo-900/70 dark:text-indigo-200/70">
-                    {event.blurb}
-                  </p>
+                  {event.blurb.split("\n").map((text) => (
+                    <p key={text} className="mt-2 text-sm leading-relaxed text-indigo-900/70 dark:text-indigo-200/70">
+                      {text}
+                    </p>
+                  ))}
                   {/* Ticketing platform to be embedded here once selected */}
                   <button
                     disabled

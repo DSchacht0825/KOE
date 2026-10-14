@@ -1,6 +1,6 @@
 const values = [
   {
-    title: "Voice (Koe)",
+    title: "Voice \u00b7 Koe",
     description:
       "We craft spaces where people can hear, trust, and embody their unique voice.",
   },
@@ -17,12 +17,12 @@ const values = [
   {
     title: "Community",
     description:
-      "We gather people and ideas, from neighborhoods to global networks, to cultivate belonging, collaboration, and collective healing.",
+      "We gather people and ideas, from neighborhoods to global networks, cultivating belonging, collaboration, and collective healing.",
   },
   {
     title: "Love",
     description:
-      "Love is the heartbeat of our work. We believe “Big Love” is the most transformative force in the world, and we seek to embody it with courage, compassion, hospitality, and hope.",
+      "Love is the heartbeat of our work.\nWe believe “Big Love” is the most transformative force in the world, and we seek to embody it with courage, compassion, hospitality, and hope.",
   },
 ];
 
@@ -45,9 +45,11 @@ export default function Values() {
               <h3 className="text-lg font-medium text-wood-300">
                 {value.title}
               </h3>
-              <p className="mt-3 text-sm leading-relaxed text-indigo-200">
-                {value.description}
-              </p>
+              {value.description.split("\n").map((text) => (
+                <p key={text} className="mt-3 text-sm leading-relaxed text-indigo-200">
+                  {text}
+                </p>
+              ))}
             </div>
           ))}
         </div>

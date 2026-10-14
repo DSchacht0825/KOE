@@ -16,13 +16,11 @@ export default function Hero() {
           Koe &middot; 声 &middot; Voice
         </span>
         <h1 className="text-4xl leading-tight font-medium sm:text-5xl md:text-6xl">
-          Where voices emerge. Creativity flourishes. Change begins.
+          Gatherings for Good.
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-indigo-200">
-          We believe creativity is not the garnish but the catalyst for
-          change. We partner with people, organizations, and communities to
-          bring meaningful ideas to life through thoughtfully designed
-          gatherings, artistic strategy, and transformative experiences.
+          Bringing people together through artistry, strategy and thoughtful
+          production for the good of the world.
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <a
