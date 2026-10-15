@@ -1,4 +1,28 @@
+import { useState } from "react";
+
+const FORMSPREE_URL = "https://formspree.io/f/xoejywqb";
+
 export default function Contact() {
+  const [status, setStatus] = useState("idle");
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    setStatus("sending");
+    try {
+      const response = await fetch(FORMSPREE_URL, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+      if (!response.ok) throw new Error(`Formspree ${response.status}`);
+      form.reset();
+      setStatus("sent");
+    } catch {
+      setStatus("error");
+    }
+  }
+
   return (
     <section id="contact" className="bg-indigo-950 text-paper">
       <div className="mx-auto max-w-xl px-6 py-24 text-center">
@@ -14,9 +38,18 @@ export default function Contact() {
           We'd love to work with you.
         </p>
 
+        {status === "sent" ? (
+          <div className="mt-10 rounded-2xl border border-wood-500/30 bg-paper/5 p-8">
+            <p className="font-serif text-2xl italic">Thank you!</p>
+            <p className="mt-3 text-indigo-200">
+              Your message is on its way. We&rsquo;ll be in touch soon.
+            </p>
+          </div>
+        ) : (
         <form
-          action="https://formspree.io/f/YOUR_FORM_ID"
+          action={FORMSPREE_URL}
           method="POST"
+          onSubmit={handleSubmit}
           className="mt-10 space-y-5 text-left"
         >
           <div>
@@ -69,11 +102,18 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="w-full rounded-full bg-wood-500 px-8 py-3 font-medium text-indigo-950 transition hover:bg-wood-300"
+            disabled={status === "sending"}
+            className="w-full rounded-full bg-wood-500 px-8 py-3 font-medium text-indigo-950 transition hover:bg-wood-300 disabled:cursor-wait disabled:opacity-60"
           >
-            Send
+            {status === "sending" ? "Sending…" : "Send"}
           </button>
+          {status === "error" && (
+            <p className="text-center text-sm text-wood-300">
+              Something went wrong. Please try again in a moment.
+            </p>
+          )}
         </form>
+        )}
       </div>
     </section>
   );
